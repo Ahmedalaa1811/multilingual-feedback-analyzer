@@ -15,7 +15,7 @@ RUN curl -o /wait-for-it.sh https://raw.githubusercontent.com/vishnubob/wait-for
 RUN chmod +x /wait-for-it.sh
 
 # Copy application code
-COPY COPY . ./
+COPY . ./
 
 ENV PYTHONUNBUFFERED=1
 
